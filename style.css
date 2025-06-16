@@ -24,14 +24,15 @@ main {
 
 #board {
   display: grid;
-  grid-template-columns: repeat(6, 80px);
+  grid-template-columns: repeat(6, 110px);
   grid-gap: 10px;
   margin-top: 10px;
 }
 
 .card {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
   background: #ccc;
   border-radius: 8px;
   cursor: pointer;
